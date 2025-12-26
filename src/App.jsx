@@ -1,11 +1,11 @@
 import { useState } from 'react'
 import './App.css'
-import Modal from './components/modal'
+import ModalParent from './components/modal-parent'
 
 export default function App() {
   return (
     <>
-      <Modal></Modal>
+      <ModalParent></ModalParent>
     </>
   )
 }
